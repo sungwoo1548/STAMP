@@ -1,0 +1,168 @@
+<% layout('layout/layout')%>
+
+<script>
+  $(document).ready(function () {
+    // Activate Carousel
+    $("#carouselExampleIndicators").carousel({ interval: 2000 });
+  });
+</script>
+<!-- Page Content -->
+<div class="container-fluid">
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('image/head1.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>SMART</h1>
+        </div>
+      </div>
+
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('image/head2.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Cost Reduction</h1>
+        </div>
+      </div>
+
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('image/head3.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Block-Chain</h1>
+        </div>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <h1 class="my-4">STAMP</h1>
+
+  <!-- Marketing Icons Section -->
+  <div class="row">
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="card-header">SMART</h4>
+        <div class="card-body">
+          <p class="card-text">이벤트 조건 및 상세설정 간편화.</p>
+          <p class="card-text">사용자 위치정보기반 매장주변 고객유치가 용이.</p>
+          <p class="card-text">사용자 평가를 통한 비즈니스 피드백.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="card-header">Cost Reduction </h4>
+        <div class="card-body">
+          <p class="card-text">SMART + 사용자 접근성이 뛰어나 기존 광고마케팅비용 감소.</p>
+          <p class="card-text">신제품 출시 및 개발단계 프로토모델 홍보 마케팅비용 감소.</p>
+          <p class="card-text">날짜,시간,제품 등 기업의 니즈를 간편하게 등록하고 마케팅 <br>가능하여 타 서비스대비 비용절감이 가능.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="card-header">Block-Chain </h4>
+        <div class="card-body">
+          <p class="card-text">Block-Chain기반 플랫폼으로 신뢰성 향상.</p>
+          <p class="card-text">고객과 기업 양간 신뢰도를 향상하여 믿음기반 서비스 제공.</p>
+          <p class="card-text">Block-Chain을 활용한 향후 전망있는 확장성 보증.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Portfolio Section -->
+  <h1>BenchMark</h1>
+
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="image/bench1.jpg" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a>가격 할인</a>
+          </h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum
+            quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum
+            tempora ex quae? Nihil, dolorem!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="image/bench2.jpg" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a>시간한정 이벤트</a>
+          </h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+            gravida pellentesque urna varius vitae.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="image/bench3.jpg" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a>선착순 이벤트</a>
+          </h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
+            cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia
+            recusandae vero vel quam!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="image/bench4.jpg" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a>참여형 이벤트</a>
+          </h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+            gravida pellentesque urna varius vitae.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="image/bench5.jpg" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a>신제품 시연</a>
+          </h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+            gravida pellentesque urna varius vitae.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="image/bench6.jpg" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a>체험형 이벤트</a>
+          </h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit
+            ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat
+            excepturi! Nemo, esse.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
