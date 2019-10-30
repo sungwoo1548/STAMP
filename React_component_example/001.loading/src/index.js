@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
+import "./index.css";
 
-import Loader from './components/Loader'
+import Loader from './components/Loader';
 
 
 export default class App extends Component {
@@ -21,11 +22,19 @@ export default class App extends Component {
 
         return (
             <>
-                {
-                    !this.state.isLoading
-                        ? <Loader />
-                        : <div>hello</div>
-                }
+
+                <main className="main-container">
+                    <header className="header"><h1>머리말</h1></header>
+                    {
+                        !this.state.isLoading
+                            ? <Loader />
+                            : <>
+                                <h1>Hello my website,</h1>
+                                <h2>Nice to meet you!</h2>
+                            </>
+                    }
+                </main>
+
             </>
         )
     }

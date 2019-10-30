@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: lightsalmon;
+    color: orangered;
+    /* visibility: hidden; */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightsalmon;
+    color: rgb(255, 87, 25);
+}
